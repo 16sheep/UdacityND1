@@ -1,0 +1,61 @@
+
+/*Background of the page*/
+body {
+    background-color:#91A6FF;
+}
+
+/*Size of the main container which is relative to the screen size with no margins on the top and equal width from 
+left and right placing the div in the center*/
+.main{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/*Add font so page would look same in all the browsers*/
+h1, h2, li, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Align list elements in ul element so they would have equal spacing*/
+h1, h2, .linklist ul{
+    text-align: center;
+}
+
+h1 {
+    color: #FF5154;
+}
+
+h2 {
+    color: #FAFF7F;
+}
+
+p, li {
+    color: #FFFFFF
+}
+
+p{
+    line-height: 140%;
+}
+
+a {
+    font-size: 20px;
+}
+
+/*Define image size by its containers size*/
+img {
+    width: 100%;
+    height: 100%;
+    border-radius:4px;
+}
+
+/*Remove -webkit predefined padding of 40px*/
+.linklist ul {
+    padding: 0;
+}
+
+/*Place navigation list elements inline or block depending on screen size*/
+.linklist li{
+    display:inline-block;
+    padding: 20px;
+}
+
